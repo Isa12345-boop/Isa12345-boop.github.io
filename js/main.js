@@ -18,9 +18,9 @@ $(document).ready(function(){
 	if(window.location.href.indexOf('index') > -1){
 		var posts = [
 			{
-				title: 'Prueba de titulo 1',
+				title: 'Panes',
 				date: 'Publicado el dia ' + moment().date() + " de " + moment().format("MMMM") + " del " + moment().format("YYYY"),
-				content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet malesuada erat, ac ullamcorper justo. Fusce sapien nibh, tempor fermentum mauris ac, tincidunt maximus diam. Quisque bibendum sed dui sit amet euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse quam sem, scelerisque sit amet libero nec, congue blandit dolor. Aliquam a vehicula mi. Morbi id convallis dolor. Nulla eu libero nec nulla fermentum viverra quis at magna. Quisque rutrum augue nulla, bibendum viverra sapien viverra vel. Quisque malesuada ultrices felis eu porttitor.'
+				content: 'El pan, del latín panis, es comida de la dieta humana que se suele preparar mediante el horneado de una masa, elaborada fundamentalmente de cereal, agua y sal. La mezcla, en la mayoría de las ocasiones, suele contener levaduras para que se fermente la masa y sea más esponjosa y tierna. El cereal más utilizado para la elaboración del pan es la harina de trigo, aunque también se utiliza el centeno, la cebada, el maíz y el arroz. La adición de la levadura provoca la fermentación de la masa antes del horneado, y como consecuencia, le proporciona un volumen y una esponjosidad debido a la producción de pequeñas burbujas de dióxido de carbono (CO2) que se quedan inmersas entre la masa húmeda de la harina.'
 			},
 			{
 				title: 'Prueba de titulo 2',
